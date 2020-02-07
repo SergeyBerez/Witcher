@@ -9,9 +9,9 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between;
 
-  min-height: 100vh;
+  min-height: 100vh; */
   background-color: #141218;
   background-image: url('../img/background.jpg');
   background-repeat: no-repeat;
@@ -255,9 +255,9 @@ a {
 /*============== footer */
 
 .footer {
-  position: fixed;
+  /* position: fixed;
   width: 100%;
-  bottom: 0;
+  bottom: 0; */
   margin-top: auto;
 
   background: #141218;
