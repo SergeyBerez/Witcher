@@ -38,7 +38,6 @@ a {
   margin: 0 auto;
   width: 95%;
   max-width: 1140px;
- 
 }
 
 .header-navigation {
@@ -82,7 +81,6 @@ a {
 
 /* --------------section content */
 .content {
-  
   /* margin-top: 90px; */
   /* display: flex;
   flex-direction: column; */
@@ -138,10 +136,12 @@ a {
   cursor: pointer;
   /* animation-delay: 1.5s; */
 }
+
 .button:active {
   border: none;
   color: #ffffff;
 }
+
 .button:visited {
   border: none;
   color: #ffffff;
@@ -193,6 +193,7 @@ a {
   margin-bottom: 60px;
   position: relative;
 }
+
 .swiper-container.swiper-container-mystyle {
   max-width: 620px;
 
@@ -259,7 +260,6 @@ a {
   width: 100%;
   bottom: 0; */
   margin-top: auto;
-
   background: #141218;
   padding: 20px 0;
 }
@@ -314,9 +314,11 @@ a {
   body {
     overflow-x: hidden;
   }
+
   .conteiner {
     overflow: hidden;
   }
+
   .menu-button {
     display: block;
     position: absolute;
@@ -344,7 +346,7 @@ a {
     content: '';
     display: block;
     position: absolute;
-top: -7px;
+    top: -7px;
     width: 30px;
     height: 3px;
     background-color: #ffff;
@@ -355,14 +357,17 @@ top: -7px;
   .menu-button-active {
     height: 0;
   }
+
   .menu-button-active::before {
     transform: rotate(45deg);
     top: 0px;
   }
+
   .menu-button-active::after {
     transform: rotate(-45deg);
     top: 0px;
   }
+
   .header-navigation {
     /* overflow: hidden; */
     display: flex;
@@ -378,13 +383,16 @@ top: -7px;
     padding-bottom: 40px;
     transition: transform 0.8s ease-in-out;
   }
+
   .header-active {
     transform: translateX(0%);
     opacity: 1;
   }
+
   .main-logo {
     margin-bottom: 25px;
   }
+
   .main-navigation {
     display: flex;
     flex-direction: column;
@@ -397,6 +405,7 @@ top: -7px;
     margin-right: 0px;
     margin-bottom: 17px;
   }
+
   .cotial-navigation {
     margin-bottom: 22px;
   }
@@ -408,12 +417,15 @@ top: -7px;
   .slider-series {
     width: 80%;
   }
+
   .swiper-container.swiper-container-mystyle {
     width: 80%;
   }
+
   .main-conteiner {
     margin-top: 200px;
   }
+
   .main-title {
     font-size: 56px;
   }
