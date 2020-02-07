@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="conteiner">
+        <nav class="header-navigation">
+          <div class="main-logo"><img src="img/logo.png" alt="" /></div>
+          <div class="main-navigation">
+            <a class="menu-link">описание</a>
+            <a class="menu-link">трейлер</a>
+            <a class="menu-link">отзывы</a>
+          </div>
+          <div class="cotial-navigation">
+            <a class="cotial-link"
+              ><i class="fa fa-twitter fa-lg" aria-hidden="true"></i
+            ></a>
+            <a class="cotial-link">
+              <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+            </a>
+            <a class="cotial-link"
+              ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i
+            ></a>
+          </div>
+        </nav>
+        <!-- button for mobile version -->
+        <div class="menu-button "></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="conteiner">
+        <div class="main-conteiner">
+          <div class="content">
+            <p class="ganre animated fadeInLeft">2019, фэнтези</p>
+            <div class="raiting animated fadeInLeft">
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <img src="img/Vector.png" alt="" />
+              <span class="raiting-number">7/10</span>
+            </div>
+            <p class="main-title animated fadeInLeft delay-1s">ведьмак</p>
+            <p class="main-description animated fadeInLeft delay-1s">
+              Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади
+              по кличке Плотва путешествует по Континенту. За тугой мешочек
+              чеканных монет этот мужчина избавит вас от всякой настырной
+              нечисти — хоть от чудищ болотных, оборотней и даже заколдованных
+              принцесс.
+            </p>
+            <a
+              data-fancybox
+              href="https://www.youtube.com/watch?v=zQ4AgPJO1xg"
+              class="button animated bounceIn delay-1s"
+              >Show trailer</a
+            >
+          </div>
+          <a
+            class="play-button animated bounceIn delay-2s"
+            data-fancybox
+            href="https://www.youtube.com/watch?v=zQ4AgPJO1xg"
+          >
+            <img class="play-button-img" src="img/Vector (1).png" alt="" />
+          </a>
+        </div>
+        <!-- series -->
+        <div class="slider-series">
+          <!-- Slider main container -->
+          <div class="swiper-container swiper-container-mystyle">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="card series1">
+                  <span class="subtitle">Серия #1</span>
+                  <h2 class="card-title">Начало конца</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card series2">
+                  <span class="subtitle">Серия #2</span>
+                  <h2 class="card-title">Четыре знака</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card series2">
+                  <span class="subtitle">Серия #2</span>
+                  <h2 class="card-title">Четыре знака</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card series2">
+                  <span class="subtitle">Серия #2</span>
+                  <h2 class="card-title">Четыре знака</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="arrow"></button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="conteiner">
+        <div class="footer-content">
+          <div class="left">
+            <span class="copirate"
+              >© 2020 The Witcher. All right reserved.</span
+            >
+          </div>
+          <div class="right">
+            <nav class="footer-menu">
+              <a href="#" class="footer-link">privacy policy</a>
+              <a href="#" class="footer-link">terms of service</a>
+              <a href="#" class="footer-link">Legal</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.fancybox.min.js"></script>
+    <script src="swiper.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
