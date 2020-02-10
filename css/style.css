@@ -381,7 +381,7 @@ a {
     top: 0;
     right: 0;
     padding-bottom: 40px;
-    transition: transform 0.8s ease-in-out;
+    transition: 0.8s ease-in-out;
   }
 
   .header-active {
